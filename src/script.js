@@ -7,7 +7,7 @@ import * as dat from "lil-gui";
  */
 // Debug
 const gui = new dat.GUI();
-
+gui.close();
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
 
@@ -272,6 +272,7 @@ renderer.setClearColor("#262837");
  *Shadows
  */
 renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFShadowMap;
 
 moonLight.castShadow = true;
 doorLight.castShadow = true;
