@@ -38,4 +38,4 @@ Contributions are welcome! If you'd like to contribute to this project, follow t
 
 ---
 
-Enjoy using the Expense Tracker App! If you have any questions or suggestions, feel free to open an issue or contribute to the project.
+If you have any questions or suggestions, feel free to open an issue or contribute to the project.
